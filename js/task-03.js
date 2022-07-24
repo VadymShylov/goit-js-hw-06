@@ -13,7 +13,7 @@ const images = [
   },
 ];
 
-const gallaryMarup = () => {
+const gallaryMarkup = () => {
   return images
     .map(
       (image) =>
@@ -24,7 +24,7 @@ const gallaryMarup = () => {
 
 const galleryElements = document.querySelector(".gallery");
 
-galleryElements.insertAdjacentHTML("beforeend", gallaryMarup());
+galleryElements.insertAdjacentHTML("beforeend", gallaryMarkup());
 
 
 // Задание 3
