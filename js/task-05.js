@@ -9,7 +9,7 @@ textInput.nameInput.addEventListener('input', onOutputNameChange);
 
 function onOutputNameChange(event) {
     if (event.currentTarget.value.length === 0) {
-        refs.nameOutput.textContent = "Anonymous";
+        textInput.nameOutput.textContent = "Anonymous";
     } else {
        textInput.nameOutput.textContent = event.currentTarget.value;
     }

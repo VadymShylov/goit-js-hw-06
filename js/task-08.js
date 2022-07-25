@@ -9,7 +9,7 @@
 const formLogin = {
   form: document.querySelector(".login-form"),
 };
-formLogin.form.addEventListener("submit", onFormSubmit);
+formLogin.form.addEventListener("submit", formSubmit);
 function formSubmit(events) {
   events.preventDefault();
 
